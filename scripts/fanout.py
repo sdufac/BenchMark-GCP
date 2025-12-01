@@ -10,7 +10,7 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 HOME_DIR = os.path.dirname(PROJECT_ROOT)
 
 TARGET_HOST = "https://tpbigdata-473713.ew.r.appspot.com"
-OUTPUT_FILE = os.path.join(PROJECT_ROOT, 'csv', 'fanout.csv')
+OUTPUT_FILE = os.path.join(PROJECT_ROOT, 'out', 'fanout.csv')
 
 LOCUST_FILE = os.path.join(SCRIPT_DIR, 'locustfile.py')
 CLEAN_SCRIPT = os.path.join(SCRIPT_DIR, 'clean.py')
